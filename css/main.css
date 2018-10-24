@@ -36,7 +36,7 @@ hr {
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
- * 
+ *
  */
 
 audio,
@@ -98,7 +98,7 @@ footer {
 }
 
 /* ==========================================================================
-  Add your CSS here 
+  Add your CSS here
    ========================================================================== */
 
 section {
@@ -144,4 +144,43 @@ section {
 
 .clearfix:after {
   clear: both;
+}
+.paragraph {
+margin-left: 100px;
+margin-top: 120px;
+}
+.para {
+  font-size: 24px;
+  margin: 0 0 0 0;
+ }
+ .p1 {
+  width: 101px;
+  height: 40px;
+  font-size: 24px;
+  background-color: white;
+  background-size: auto;
+}
+.p2 {
+  width: 209px;
+  height: 40px;
+  font-size: 24px;
+  background-color: white;
+}
+.p3 {
+  width: 93px;
+  height: 40px;
+  font-size: 24px;
+  background-color: white;
+}
+.p4 {
+  width: 179px;
+  height: 40px;
+  font-size: 24px;
+  background-color: white;
+}
+.p5 {
+  width: 71px;
+  height: 40px;
+  font-size: 24px;
+  background-color: white;
 }

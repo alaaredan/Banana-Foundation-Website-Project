@@ -113,13 +113,6 @@ section {
 
 
 
-
-
-
-
-
-
-
 /* ========================================================================== ========================================================================== */
 
 
@@ -184,3 +177,62 @@ margin-top: 120px;
   font-size: 24px;
   background-color: white;
 }
+.whatwefund {
+  background-color: white;
+  height: 504px;
+  position: relative;
+}
+.here {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-style: Bold;
+  font-size: 48px;
+}
+.contaier {
+  position: absolute;
+  width: 1080px;
+  height: 289px;
+  left: 50px;
+}
+.first_div {
+  position: absolute;
+  width: 510px;
+  height: 220px;
+  background-color: #f2c94c;
+}
+.second_div {
+position: absolute;
+width: 510px;
+height: 220px;
+right: 0px;
+background-color: #83afed;
+}
+.third_div {
+  position: absolute;
+  width: 510px;
+  height: 69px;
+  background-color: black;
+  bottom: 0px;
+}
+.fourth_div {
+  position: absolute;
+  width: 510px;
+  height: 69px;
+  background-color: black;
+  bottom: 0px;
+  right: 0px;
+}
+.h1 {
+  position: absolute;
+  font-style: Bold;
+  font-size: 24px;
+  left: 20px;
+  bottom: 10px;
+}
+.h2 {
+  position: absolute;
+  font-style: Bold;
+  font-size: 24px;
+  color: white;
+  left: 20px;
+  }

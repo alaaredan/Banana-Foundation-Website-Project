@@ -235,5 +235,73 @@ background-color: #83afed;
 }
 .communities {
   position: relative;
-  height: 700px;
+  height: 850px;
+  background-color: white;
+  }
+  .here_communities {
+    position: absolute;
+    left: 40px;
+    font-size: 48px
+  }
+  .communities_paragraphs {
+    position: absolute;
+    font-size: 24px;
+    top: 100px;
+    left: 40px;
+    width: 510px;
+  }
+  .this_button {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    height: 75px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+  }
+  .second_container {
+    position: absolute;
+    width: 1080px;
+    height: 389px;
+    left: 50px;
+    top: 400px;
+    background-color: blue;
+  }
+.banana {
+  background-color: #f2c94c;
+  width: 320px;
+  height: 389px;
+}
+.first_div_here {
+
+}
+.second_div_here {
+  position: absolute;
+  left: 380px;
+  top: 0px;
+}
+.third_div_here {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.communities_article {
+  position: absolute;
+  left: 20px;
+  color: #a3c2c2;
+}
+.communities_img {
+  position: absolute;
+  width: 320px;
+  height: 235px;
+  bottom: 0;
+}
+.banana_paragraph {
+  position: absolute;
+  width: 320px;
+  top: 40px;
+  left: 20px;
+  font-size: 25px;
+  font-style: Bold;
 }

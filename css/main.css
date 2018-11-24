@@ -1,9 +1,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 @import "__spacing.css"; /* Using Tachyons spacing */
-
 html,
 body {
   color: #222;
@@ -13,17 +11,14 @@ body {
   margin: 0;
   height: 100%;
 }
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
-
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
-
 hr {
   display: block;
   height: 1px;
@@ -32,13 +27,11 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  *
  */
-
 audio,
 canvas,
 iframe,
@@ -47,7 +40,6 @@ svg,
 video {
   vertical-align: middle;
 }
-
 #container {
   display: flex;
   flex-direction: column;
@@ -55,12 +47,10 @@ video {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 main {
   flex: 1;
   overflow: auto;
 }
-
 /* The hero image */
 .hero-image {
   margin: 0 0;
@@ -70,7 +60,6 @@ main {
   background-size: cover;
   position: relative;
 }
-
 header {
   display: flex;
   flex-direction: row;
@@ -78,11 +67,9 @@ header {
   align-items: center;
   height: 64px;
 }
-
 .header__logo {
   height: 32px;
 }
-
 footer {
   display: flex;
   flex-direction: row;
@@ -90,34 +77,21 @@ footer {
   align-items: center;
   height: 64px;
 }
-
 .footer__items a {
   font-weight: 500;
   color: #222;
   text-decoration: none;
 }
-
 /* ==========================================================================
   Add your CSS here
    ========================================================================== */
-
 section {
   height: 300px;
   overflow: auto;
   border-bottom: 2px solid;
   background: lightpink;
 }
-
-
-
-
-
-
-/* ========================================================================== ========================================================================== */
-
-
-
-   /*
+/*
  * Clearfix: contain floats
  *
  * For modern browsers
@@ -128,13 +102,11 @@ section {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
 .clearfix:before,
 .clearfix:after {
   content: " "; /* 1 */
   display: table; /* 2 */
 }
-
 .clearfix:after {
   clear: both;
 }
@@ -236,3 +208,32 @@ background-color: #83afed;
   color: white;
   left: 20px;
   }
+.our_mission {
+  position: relative;
+  height: 600px;
+  background-color: white;
+}
+.Mission {
+  position: absolute;
+  font-style: Bold;
+  font-size: 48px;
+  left: 40px;
+}
+.this_para {
+  position: absolute;
+  font-size: 24px;
+  top: 100px;
+  left: 40px;
+  width: 510px;
+}
+.mission_group_img {
+  position: absolute;
+  top: 50px;
+  float: right;
+  width: 550px;
+  right: 20px;
+}
+.communities {
+  position: relative;
+  height: 700px;
+}

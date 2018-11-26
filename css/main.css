@@ -266,7 +266,7 @@ background-color: #83afed;
     height: 389px;
     left: 50px;
     top: 400px;
-    background-color: blue;
+    background-color: white;
   }
 .banana {
   background-color: #f2c94c;
@@ -299,9 +299,18 @@ background-color: #83afed;
 }
 .banana_paragraph {
   position: absolute;
-  width: 320px;
+  width: 300px;
   top: 40px;
   left: 20px;
   font-size: 25px;
   font-style: Bold;
+}
+.color {
+  background-color: #83afed;
+}
+.this_communities_img {
+  position: absolute;
+  width: 320px;
+  height: 220px;
+  bottom: 0;
 }
